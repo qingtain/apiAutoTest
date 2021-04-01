@@ -5,7 +5,7 @@ import readConfig
 import getpathInfo
 from common.Log import logger
 
-
+#modefy
 read_conf = readConfig.ReadConfig()
 subject = read_conf.get_email('subject')#从配置文件中读取，邮件主题
 app = str(read_conf.get_email('app'))#从配置文件中读取，邮件类型
